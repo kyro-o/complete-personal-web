@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" href="https://use.typekit.net/ijx4pxz.css">
+<link rel="stylesheet" href="https://use.typekit.net/ijx4pxz.css">
+<link rel="stylesheet" href="https://use.typekit.net/ijx4pxz.css">
+<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+<link href="../assets/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+	main {
+		height:1200px;
+	}
+</style>
+</head>
+
+<body>
+	<div id="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="../images/home_photos/headerparent.png" width="324" height="50" alt="Logo"/>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Works
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="blog.html">Blog</a>
+              <a class="dropdown-item" href="gallery.html">Gallery</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <!--Begin Floated Elements-->
+  <aside><h3>I am a high school student who loves to travel the world</h3>
+	<h3>Join me as I travel around the world.</h3>
+	<h3>by Cathy Ma</h3>
+	</aside>
+  <main>
+	<h1>Contact Me</h1>
+    <form>
+	 	<p>Your Name: <input name="user_name" type="text" id="user_name" value="First and Last Name" size="50"></p>
+		<p>Email: <input name="user_email" type="email" id="user_email" size="50"></p>
+	  	<p>Leave a message: <br>
+		<textarea name="user_comment" cols="65" rows="10" id="user_comment"></textarea></p>
+	  <p>How did you hear about this blog?<br>			
+			<label>
+				<input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0"> Search Engine</label>
+					<br>
+			<label>
+				<input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1"> Social Media</label>
+					<br>
+			<label>
+				<input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2"> Friend</label>
+					<br>
+			<label>
+				<input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3"> Business Card</label>
+					<br>
+		</p>
+		<input type="submit" class="submit_btn" formaction="comment-box.php" formmethod="POST" value="Send Me A Message">
+	  </form>
+  </main>
+  <!--End Floated Elements-->
+  <footer>
+		        <div class="row">
+          <div class="col-12">
+            <p>Copyright © Cathy M. All rights reserved.</p>
+          </div>
+        </div></footer>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

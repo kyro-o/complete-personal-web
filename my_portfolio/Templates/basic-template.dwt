@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>My World Captured</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="https://use.typekit.net/ijx4pxz.css">
+<link rel="stylesheet" href="https://use.typekit.net/ijx4pxz.css">
+<link rel="stylesheet" href="https://use.typekit.net/ijx4pxz.css">
+<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+<link href="../assets/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<style type="text/css">
+	
+</style>
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="container">
+  <header></header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="../images/home_photos/headerparent.png" width="324" height="50" alt="Logo"/>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../pages/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Works
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../pages/blog.html">Blog</a>
+              <a class="dropdown-item" href="../pages/gallery.html">Gallery</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<!--Begin Floated Elements-->
+	<aside>
+		<h3>I am a high school student who loves to travel the world</h3>
+		<h3>Join me as I travel around the world.</h3>
+		<h3>by Cathy Ma</h3>
+	</aside>
+ 
+<!-- TemplateBeginEditable name="main-content" -->
+	<main>
+		<h1>Page Title</h1>
+	</main>
+<!-- TemplateEndEditable -->  <!--End Floated Elements-->
+<!-- TemplateBeginEditable name="footer" -->
+	<footer></footer>
+<!-- TemplateEndEditable -->
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
